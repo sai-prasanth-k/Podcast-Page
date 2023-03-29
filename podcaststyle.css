@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.top-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    height: 25vh;
+    background-size: cover;
+}
+
+.bg-container {
+    font-family: Roboto;
+}
+
+.top-heading {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.back-button {
+    background-color: #151765;
+    color: #ffffff;
+    font-size: 12px;
+    width: 80px;
+    border-radius: 20px;
+
+}
+
+.bottom-container {
+    padding: 20px;
+}
+
+.image-container {
+    height: 100px;
+}
+
+.temp-name {
+    font-size: 14px;
+    color: #151765;
+}
+
+.temp-desc {
+    font-size: 14px;
+}
+
+.card-container {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.cardsection {
+    text-align: left;
+}
+
+.podcast-heading {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.heading-name {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.heading-para {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.description {
+    background-color: #151765;
+    height: 20vh;
+}
+
+.top-section {
+    padding: 20px;
+}
+
+.container-desc {
+    padding-left: 8px;
+}
+
+.temp-name {
+    font-size: 15px;
+}
+
+.temp-desc {
+    font-size: 11px;
+}
+
+.time {
+    font-size: 9px;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="podcaststyle.css">
+</head>
+
+<body>
+    <div class="bg-container" id="sectionHome">
+        <div class="top-container">
+            <h1 class="top-heading">
+                Podcasts
+            </h1>
+        </div>
+        <div class="bottom-container ">
+            <div class="row-container d-flex flex-row">
+                <div class="card-container" onclick="display('sectionPuri')">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                    <h2 class="temp-name">Puri jagannadh</h2>
+                    <p class="temp-desc">24 Episodes</p>
+                </div>
+                <div class="card-container" onclick="display('sectionTedx')">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" />
+                    <h2 class="temp-name">Tedx talks</h2>
+                    <p class="temp-desc">12 Episodes</p>
+                </div>
+            </div>
+            <div class="row-container d-flex flex-row">
+                <div class="card-container" onclick="display('sectionSadhguru')">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" />
+                    <h2 class="temp-name">Sadhguru</h2>
+                    <p class="temp-desc">49 Episodes</p>
+                </div>
+                <div class="card-container" onclick="display('sectionJay')">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" />
+                    <h2 class="temp-name">On purpose</h2>
+                    <p class="temp-desc">49 Episodes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-container" id="sectionPuri">
+        <div class="top-container description ">
+            <div class="top-section d-flex flex-row">
+                <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                <div class="container-desc d-flex flex-column">
+                    <h1 class="podcast-heading">Podcasts</h1>
+                    <h2 class="heading-name">Puri Jagannadh Podcast</h2>
+                    <p class="heading-para">The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container ">
+            <div class="row-container d-flex flex-column">
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Mysterious book</h2>
+                        <p class="temp-desc">The Voyinch manuscript is the 15th century book...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Predator Drone</h2>
+                        <p class="temp-desc">The most power full drone. It i 10 feet height</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Paella</h2>
+                        <p class="temp-desc">The national dish of spain. It was first star</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Molecular Gastronomy</h2>
+                        <p class="temp-desc">Anything happens there it will not cook,...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="button-container d-flex flex-row justify-content-end">
+                    <button class="back-button" onclick="display('sectionHome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-container" id="sectionTedx">
+        <div class="top-container description ">
+            <div class="top-section d-flex flex-row">
+                <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                <div class="container-desc d-flex flex-column">
+                    <h1 class="podcast-heading">Podcasts</h1>
+                    <h2 class="heading-name">Puri Jagannadh Podcast</h2>
+                    <p class="heading-para">The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container ">
+            <div class="row-container d-flex flex-column">
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Mysterious book</h2>
+                        <p class="temp-desc">The Voyinch manuscript is the 15th century book...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Predator Drone</h2>
+                        <p class="temp-desc">The most power full drone. It i 10 feet height</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Paella</h2>
+                        <p class="temp-desc">The national dish of spain. It was first star</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Molecular Gastronomy</h2>
+                        <p class="temp-desc">Anything happens there it will not cook,...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="button-container d-flex flex-row justify-content-end">
+                    <button class="back-button" onclick="display('sectionHome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-container" id="sectionSadhguru">
+        <div class="top-container description ">
+            <div class="top-section d-flex flex-row">
+                <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                <div class="container-desc d-flex flex-column">
+                    <h1 class="podcast-heading">Podcasts</h1>
+                    <h2 class="heading-name">Puri Jagannadh Podcast</h2>
+                    <p class="heading-para">The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container ">
+            <div class="row-container d-flex flex-column">
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Mysterious book</h2>
+                        <p class="temp-desc">The Voyinch manuscript is the 15th century book...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Predator Drone</h2>
+                        <p class="temp-desc">The most power full drone. It i 10 feet height</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Paella</h2>
+                        <p class="temp-desc">The national dish of spain. It was first star</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Molecular Gastronomy</h2>
+                        <p class="temp-desc">Anything happens there it will not cook,...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="button-container d-flex flex-row justify-content-end">
+                    <button class="back-button" onclick="('sectionHome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-container" id="sectionJay">
+        <div class="top-container description ">
+            <div class="top-section d-flex flex-row">
+                <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                <div class="container-desc d-flex flex-column">
+                    <h1 class="podcast-heading">Podcasts</h1>
+                    <h2 class="heading-name">Puri Jagannadh Podcast</h2>
+                    <p class="heading-para">The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container ">
+            <div class="row-container d-flex flex-column">
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Mysterious book</h2>
+                        <p class="temp-desc">The Voyinch manuscript is the 15th century book...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Predator Drone</h2>
+                        <p class="temp-desc">The most power full drone. It i 10 feet height</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Paella</h2>
+                        <p class="temp-desc">The national dish of spain. It was first star</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="card-container cardsection d-flex flex-row">
+                    <img class="image-container" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" />
+                    <div class="container-desc d-flex flex-column">
+                        <h2 class="temp-name">Molecular Gastronomy</h2>
+                        <p class="temp-desc">Anything happens there it will not cook,...</p>
+                        <p class="time">12 min</p>
+                    </div>
+                </div>
+                <div class="button-container d-flex flex-row justify-content-end">
+                    <button class="back-button" onclick="('sectionHome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
